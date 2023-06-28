@@ -1,0 +1,179 @@
+body:not(ul):not(.toiawaseform){
+  cursor: default;
+}
+body{
+  background-color: #F5F5F5;
+  margin :0px;
+}
+header{
+  display: none;
+  position:fixed;
+  top:0;
+  right:0;
+  background-color: rgba(255,255,255,0.7);
+  width: 100%;
+  height:7%;
+  float:left;
+  z-index:2;
+}
+h5{
+  display: inline-block;
+  font-size: 100%;
+  width:20%;
+  height:7%;
+}
+li{
+  display: inline-block;
+  height:10%;
+  float:left;
+  width:20%;
+  border-top: 0.1px solid black;
+  text-align: center;
+}
+ul{
+  display: inline-block;
+  cursor: pointer;
+  width:70%;
+  float: right;
+}
+ul li{
+  padding:0;
+  margin:0;
+}
+ul a{
+  padding:5px;
+  display:block;
+  color: black;
+  text-decoration: none;
+}
+.main{
+  display: none;
+  background: url("gazou.jpg");
+  background-size: cover;
+  height:800px;
+  width: 100%;
+}
+.main h1{
+  text-align: center;
+  font-size: 500%;
+  color: white;
+  z-index:1;
+}
+h3{
+  text-align: center;
+  font-size: 200%;
+  color: white;
+}
+#ABOUTUS{
+  display:none;
+}
+.bot_cont{
+  display: none;
+  margin-top:100px;
+  border-top: 1px solid black;
+}
+.bottom_contact{
+}
+.bottom .about{
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 15%;
+}
+.bottom .naiyou{
+  text-align: center;
+}
+.bottom table{
+  display: inline-block;
+  margin:0 16%;
+  width:66%;
+  text-align: center;
+}
+.tdword{
+  font-size: 30px;
+}
+td img{
+  width:33%;
+}
+.bottom td{
+  display: inline-block;
+  width:33%;
+}
+.bottom_contact{
+  display: inline-block;
+  width:33%;
+  margin: 6% 33%;
+}
+.bottom_contact p{
+  font-size: 40px;
+  text-align: center;
+}
+.toiawaseform{
+  text-align: center;
+  /* border-bottom: 1px solid black; */
+}
+.button{
+  text-align: center;
+}
+input{
+  width:100%;
+}
+textarea{
+  width:100%;
+  height: calc( 1.3em * 5 );
+  line-height: 1.3;
+}
+
+.btn-square {
+  display: inline-block;
+  padding: 0.125em 0.5em;
+  text-decoration: none;
+  background: white;/*ボタン色*/
+  color: black;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+footer{
+  border-top: 1px solid black;
+}
+footer p{
+  text-align: center;
+}
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #3f98ef;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
